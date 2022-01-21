@@ -20,7 +20,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_alkusaldo_suurempi_kuin_varasto(self):
         self.varasto = Varasto(10, 99)
-        self.assertEqual(self.varasto.tilavuus, 100)
+        self.assertEqual(self.varasto.tilavuus, 10)
 
 
 
